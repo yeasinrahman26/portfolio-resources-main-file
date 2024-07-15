@@ -159,8 +159,9 @@ footer {
     display: flex;
     gap: 100px;
 }
-.footer-colomn {
+.footer-column {
     width: 50%;
+    
 }
 footer input[type="text"], input[type="email"], input[type="textarea"]{
     height: 64px;
