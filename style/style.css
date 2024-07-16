@@ -175,3 +175,60 @@ footer input[type="text"], input[type="email"], input[type="textarea"]{
     font-size: 25px;
 
 }
+
+/* responsibe part  */
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width:576px) {
+  .first-section {
+    padding: 20px;
+  }
+  .first-section-items,
+  .banner, nav, nav>ul {
+    flex-direction: column;
+  }
+  .banner {
+    margin: 20px;
+  }
+  .header {
+    background-image: none;
+  }
+  .poster img {
+    width: 100%;
+  }
+
+nav>ul {
+  gap: 20px;
+}
+.info>h1 {
+  text-align: start;
+  font-size: 40px;\
+  
+}
+.btn-primary {
+  margin-bottom: 20px;
+}
+
+  .skills-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .resume-container{
+    flex-direction: column;
+    /* padding: 10px; */
+  }
+  footer{
+    flex-direction: column;
+    padding: 10px;
+  }
+  .footer-column {
+    width: 100%;
+  }
+  footer input[type="text"], input[type="email"], input[type="textarea"] {
+    width: calc(100% - 40px);
+  }
+
+} 
